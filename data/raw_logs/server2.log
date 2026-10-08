@@ -1,0 +1,7 @@
+2026-10-08 12:00:01 INFO Application started
+2026-10-08 12:01:15 INFO User logged in
+THIS LINE IS BROKEN
+2026-10-08 ERROR Database connection failed
+random data here
+2026-10-08 12:04:30 INFO Data loaded
+2026-??-?? WARNING Invalid date
