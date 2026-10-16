@@ -26,8 +26,6 @@ for folder in folders:
             clean_data.append([date,time,level,message])
     print(clean_data)
     if is_valid:
-        # filename=os.path.splitext(folder)[0]+".csv"
-        # destination=os.path.join("data/cleaned",filename)
         with open("data/cleaned/clean.csv","w") as f:
             writer=csv.writer(f)
             writer.writerow(["Date","Time","Level","Message"])
@@ -38,7 +36,7 @@ for folder in folders:
         destination = os.path.join("data/quarantine",folder)
         shutil.move(path, destination)
         print(path, "-> Quarantine folder")
-        
+#updated
 
 
 
