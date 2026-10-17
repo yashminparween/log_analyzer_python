@@ -36,7 +36,7 @@ for folder in folders:
         destination = os.path.join("data/quarantine",folder)
         shutil.move(path, destination)
         print(path, "-> Quarantine folder")
-#updated
+
 
 
 
